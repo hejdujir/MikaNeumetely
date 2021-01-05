@@ -500,7 +500,7 @@ ul,li{
 	background-color:#ffffff;
 	background-position:center center;
 	background-repeat:no-repeat;
-	background-image:url(../images/icons/preloader.gif);
+	background-image:url(../images/icons/preloader.svg);
 }
 
 img{
@@ -1180,7 +1180,16 @@ img{
 	position: relative;
 }
 
+.header-style-four .header-upper{
+	position: relative;
+}
+
 .header-style-two .header-upper .logo-outer{
+	position: relative;
+	padding:35px 0px;
+}
+
+.header-style-four .header-upper .logo-outer{
 	position: relative;
 	padding:35px 0px;
 }
@@ -2428,7 +2437,6 @@ img{
 	line-height: 1.1em;
 	color: #ffffff;
 	font-weight: 500;
-	text-transform: capitalize;
 	margin-bottom: 30px;
 	opacity: 0;
 	font-family: 'PT Serif', serif;
@@ -3153,6 +3161,7 @@ img{
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
 	transition: all 300ms ease;
+	min-height: 115px;
 }
 
 .service-block-three .inner-box:before{
@@ -3196,7 +3205,7 @@ img{
 .service-block-three .icon{
 	position: absolute;
 	left: 20px;
-	top: 30px;
+	top: 20px;
 	height: 70px;
 	width: 70px;
 	line-height: 70px;
@@ -4497,6 +4506,7 @@ img{
 .projects-section-two{
 	position: relative;
 	padding: 120px 0;
+	background-color: #fafafa;
 }
 
 .projects-section-two.alternate{
@@ -5783,13 +5793,7 @@ img{
 }
 
 .call-back-section .text-column .inner-column{
-	position: relative;
-	padding: 50px;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-  	align-items: center;
-  	text-align: center;
+	padding: 40px;
   	background-color: #ffffff;
 }
 
@@ -11339,6 +11343,7 @@ form .response .text-info{
 .rtl .range-slider-one .btn-box,
 .rtl .header-style-three .logo-outer,
 .rtl .header-style-two .header-upper .logo-outer,
+.rtl .header-style-four .header-upper .logo-outer,
 .rtl .main-header .header-lower .logo-outer{
 	float: right !important;
 }
