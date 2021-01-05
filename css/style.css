@@ -1180,16 +1180,7 @@ img{
 	position: relative;
 }
 
-.header-style-four .header-upper{
-	position: relative;
-}
-
 .header-style-two .header-upper .logo-outer{
-	position: relative;
-	padding:35px 0px;
-}
-
-.header-style-four .header-upper .logo-outer{
 	position: relative;
 	padding:35px 0px;
 }
@@ -11343,7 +11334,6 @@ form .response .text-info{
 .rtl .range-slider-one .btn-box,
 .rtl .header-style-three .logo-outer,
 .rtl .header-style-two .header-upper .logo-outer,
-.rtl .header-style-four .header-upper .logo-outer,
 .rtl .main-header .header-lower .logo-outer{
 	float: right !important;
 }
@@ -11974,7 +11964,7 @@ form .response .text-info{
 	background-repeat: repeat;
 	background-position: center;
 	background-attachment: fixed;
-	background-image: url(../images/background/boxed-bg/1.png);
+	background-image: url(../images/background/background.png);
 }
 
 .box-layout .header-style-two.fixed-header .outer-container,
