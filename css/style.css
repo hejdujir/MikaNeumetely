@@ -3137,6 +3137,10 @@ img{
 	padding: 120px 0 90px;
 }
 
+.services-section-three-grey{
+	background-color: #fafafa;
+}
+
 .service-block-three{
 	position: relative;
 	margin-bottom: 30px;
@@ -11967,7 +11971,15 @@ form .response .text-info{
 	background-repeat: repeat;
 	background-position: center;
 	background-attachment: fixed;
-	background-image: url(../images/background/background.png);
+
+}
+
+.box-layout-wood{
+	background-image: url(../images/background/background-wood.png);
+}
+
+.box-layout-tire{
+	background-image: url(../images/background/background-tire.png);
 }
 
 .box-layout .header-style-two.fixed-header .outer-container,
