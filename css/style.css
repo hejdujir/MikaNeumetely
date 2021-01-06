@@ -5808,6 +5808,7 @@ img{
 
 .info-block{
 	position:relative;
+	margin-bottom: 5px;
 }
 
 .info-block .inner-box{
@@ -7908,6 +7909,8 @@ form .response .text-info{
 	height:400px;
 	background-color: #dddddd;
 }
+
+
 
 /***
 
