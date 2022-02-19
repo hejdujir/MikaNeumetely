@@ -3134,11 +3134,15 @@ img{
 
 .services-section-three{
 	position: relative;
-	padding: 120px 0 90px;
+	padding: 120px 0 40px;
 }
 
 .services-section-three-grey{
 	background-color: #fafafa;
+}
+
+.services-section-three-white{
+	background-color: #ffffff;
 }
 
 .service-block-three{
